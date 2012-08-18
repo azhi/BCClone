@@ -1,0 +1,11 @@
+*~
+Makefile*
+bin/
+*swp
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+commit_hash.h
