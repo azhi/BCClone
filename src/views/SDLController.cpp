@@ -13,7 +13,7 @@ SDLController::~SDLController()
 
 void SDLController::init(unsigned screenWidth, unsigned screenHeigth)
 {
-  if ( SDL_Init( SDL_INIT_VIDEO | SDL_INIT_EVENTTHREAD ) < 0 )
+  if ( SDL_Init( SDL_INIT_VIDEO < 0))// | SDL_INIT_EVENTTHREAD ) < 0 )
   {
     fprintf(stderr, "Unable to init SDL: %s", SDL_GetError());
     exit(EXIT_FAILURE);
