@@ -2,25 +2,25 @@
 
 MainController::MainController()
 {
-  sdlController = new SDLController(1024, 768);
+    sdlController = new SDLController(1024, 768);
 }
 
 MainController::~MainController()
 {
-  delete sdlController;
+    delete sdlController;
 }
 
 void MainController::mainLoop()
 {
-  bool quit = false;
-  while ( !quit )
-  {
-    SDL_Event event = sdlController->getEvent();
-    switch ( event.type )
+    bool quit = false;
+    while ( !quit )
     {
-      case SDL_QUIT:
-        quit = true;
-        break;
+        SDL_Event event = sdlController->getEvent();
+        switch ( event.type )
+        {
+            case SDL_QUIT:
+                quit = true;
+                break;
+        }
     }
-  }
 }

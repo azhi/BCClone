@@ -5,13 +5,13 @@
 
 class MainController
 {
-public:
-  MainController();
-  ~MainController();
-  void mainLoop();
+    public:
+        MainController();
+        ~MainController();
+        void mainLoop();
 
-private:
-  SDLController* sdlController;
+    private:
+        SDLController* sdlController;
 };
 
 #endif // SDL_CONTROLLER_H

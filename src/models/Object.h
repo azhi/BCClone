@@ -3,12 +3,12 @@
 
 class Object
 {
-public:
-  Object();
-  ~Object();
-  
-private:  
-  
+    public:
+        Object();
+        ~Object();
+
+    private:  
+
 };
 
 #endif // OBJECT_H

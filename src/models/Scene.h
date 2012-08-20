@@ -3,12 +3,12 @@
 
 class Scene
 {
-public:
-  Scene();
-  ~Scene();
-  
-private:  
-  
+    public:
+        Scene();
+        ~Scene();
+
+    private:  
+
 };
 
 #endif // SCENE_H

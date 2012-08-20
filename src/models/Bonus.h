@@ -5,12 +5,12 @@
 
 class Bonus : public Object
 {
-public:
-  Bonus();
-  ~Bonus();
-  
-private:  
-  
+    public:
+        Bonus();
+        ~Bonus();
+
+    private:  
+
 };
 
 #endif // BONUS_H

@@ -5,12 +5,12 @@
 
 class Bullet : public Object
 {
-public:
-  Bullet();
-  ~Bullet();
-  
-private:  
-  
+    public:
+        Bullet();
+        ~Bullet();
+
+    private:  
+
 };
 
 #endif // BULLET_H

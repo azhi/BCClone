@@ -5,12 +5,12 @@
 
 class LevelObject : public Object
 {
-public:
-  LevelObject();
-  ~LevelObject();
-  
-private:  
-  
+    public:
+        LevelObject();
+        ~LevelObject();
+
+    private:  
+
 };
 
 #endif // LEVEL_OBJECT_H

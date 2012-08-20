@@ -5,12 +5,12 @@
 
 class Tank : public Object
 {
-public:
-  Tank();
-  ~Tank();
-  
-private:  
-  
+    public:
+        Tank();
+        ~Tank();
+
+    private:  
+
 };
 
 #endif // TANK_H

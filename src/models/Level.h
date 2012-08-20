@@ -3,12 +3,12 @@
 
 class Level
 {
-public:
-  Level();
-  ~Level();
-  
-private:  
-  
+    public:
+        Level();
+        ~Level();
+
+    private:  
+
 };
 
 #endif // LEVEL_H

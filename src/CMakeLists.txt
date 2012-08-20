@@ -5,7 +5,7 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "-std=c++0x")
 
 set (PROJECT
-  BCClone)
+    BCClone)
 
 set (SOURCES
     main.cpp
@@ -23,7 +23,7 @@ set (SOURCES
 
     controllers/MainController.h
     controllers/MainController.cpp
-)
+    )
 
 set (EXECUTABLE_OUTPUT_PATH ../bin)
 

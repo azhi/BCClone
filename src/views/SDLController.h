@@ -5,14 +5,14 @@
 
 class SDLController
 {
-public:
-  SDLController(unsigned screenWidth, unsigned screenHeigth);
-  ~SDLController();
-  void init(unsigned screenWidth, unsigned screenHeigth);
-  SDL_Event getEvent();
+    public:
+        SDLController(unsigned screenWidth, unsigned screenHeigth);
+        ~SDLController();
+        void init(unsigned screenWidth, unsigned screenHeigth);
+        SDL_Event getEvent();
 
-private:
-  SDL_Surface* screen;
+    private:
+        SDL_Surface* screen;
 };
 
 #endif // SDL_CONTROLLER_H
