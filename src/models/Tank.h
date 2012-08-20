@@ -1,12 +1,14 @@
 #ifndef TANK_H
 #define TANK_H
 
-#include "object.h"
+#include "Object.h"
+
+const OBJECT_TYPE TANK_OBJECT = 4;
 
 class Tank : public Object
 {
     public:
-        Tank();
+        Tank() : Object(TANK_OBJECT) {};
         ~Tank();
 
     private:  

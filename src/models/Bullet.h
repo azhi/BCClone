@@ -1,12 +1,14 @@
 #ifndef BULLET_H
 #define BULLET_H
 
-#include "object.h"
+#include "Object.h"
+
+const OBJECT_TYPE BULLET_OBJECT = 2;
 
 class Bullet : public Object
 {
     public:
-        Bullet();
+        Bullet() : Object(BULLET_OBJECT) {};
         ~Bullet();
 
     private:  
