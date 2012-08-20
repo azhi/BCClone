@@ -3,6 +3,7 @@ Makefile*
 bin/
 *swp
 *.vcxproj*
+Debug/
 
 # CMake generated files
 CMakeCache.txt

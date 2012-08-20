@@ -1,7 +1,7 @@
 #ifndef SDL_CONTROLLER_H
 #define SDL_CONTROLLER_H
 
-#include <SDL/SDL.h>
+#include "SDL.h"
 
 class SDLController
 {
