@@ -4,7 +4,7 @@ bin/
 *swp
 *.vcxproj*
 Debug/
-SDL.dll
+*.dll
 
 # CMake generated files
 CMakeCache.txt
